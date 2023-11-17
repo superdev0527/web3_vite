@@ -1,0 +1,39 @@
+{
+  "name": "blackcube-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "connectkit": "^1.4.0",
+    "process": "^0.11.10",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^6.19.0",
+    "util": "^0.12.4",
+    "viem": "~0.3.36",
+    "wagmi": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "@types/react-lottie": "^1.2.9",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5"
+  },
+  "overrides": {
+    "react-lottie": {
+      "react": "^18.0.0 || ^18.2.0"
+    }
+  }
+}

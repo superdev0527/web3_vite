@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PPNeueMachina-PlainLight";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("/public/fonts/PPNeueMachina/PPNeueMachina-PlainLight.ttf");
+  font-display: block;
+}
+
+@font-face {
+    font-family: "PPNeueMachina-PlainBlack";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url("/public/fonts/PPNeueMachina/PPNeueMachina-PlainBlack.ttf");
+    font-display: block;
+  }
+
+@font-face {
+  font-family: "PPNeueMachina-PlainThin";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("/public/fonts/PPNeueMachina/PPNeueMachina-PlainThin.ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "PPNeueMachina-PlainSemibold";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url("/public/fonts/PPNeueMachina/PPNeueMachina-PlainSemibold.ttf");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "MissionX";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url("/public/fonts/MissionX.otf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src: url("/public/fonts/Lato-Light.ttf");
+  font-display: block;
+}
+
+html {
+  background: #121212;
+  min-height: 100vh;
+}
+
+.gradient-text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
